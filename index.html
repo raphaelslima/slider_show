@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>SlideShow</title>
+  </head>
+  <body>
+    <header>
+      <div class="slider">
+        <div class="slider--controls">
+          <div class="slider--control" onclick="goBack()">
+            <p>Voltar</p>
+          </div>
+          <div class="slider--control" onclick="goNext()">
+            <p>Proximo</p>
+          </div>
+        </div>
+        <div class="slider--width">
+          <div
+            class="slider--item"
+            style="background-image: url(/assets/img/skate_1.jpg)"
+          >
+            Viva o skate
+          </div>
+          <div
+            class="slider--item"
+            style="background-image: url(/assets/img/skate_2.jpg)"
+          >
+            Sempre se divirta
+          </div>
+          <div
+            class="slider--item"
+            style="background-image: url(/assets/img/skate_3.jpg)"
+          >
+            Mais que um esporte
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
